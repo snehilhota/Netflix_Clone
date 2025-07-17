@@ -24,7 +24,7 @@ const Login = () => {
   }
 
   return (
-    loading ?<div className="login-spinner">
+    loading ? <div className="login-spinner">
       <img src={netflix_spinner} alt="" />
     </div> :
     <div className='login'>
